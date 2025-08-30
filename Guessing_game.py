@@ -5,7 +5,7 @@ print("2. Your job is to guess the number.")
 print("3. After every guess you will get a hints like'too high' or 'too low'.")
 print("4. You can exit the game whenever you want by typing 'exit'.")
 print("5. The game will track your number of attempts in a round and use it to display your best score across multiple rounds.")
-import random #random module helps with generation of rnadom numbers.
+import random #random module helps with generation of random numbers.
 def Start_Game():
     num=random.randint(1,100) #tells the computer to go in random module and select a number between 1 to 100.
     attempts=0
@@ -65,4 +65,5 @@ def main():
             print("Invalid choice! Please select from 1, 2 or 3 only")
 
 if __name__ == "__main__":
+
     main()        
